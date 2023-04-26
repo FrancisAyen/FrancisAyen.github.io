@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+   background-image: linear-gradient(to right, orange, skyblue, purple, red);
+}
+nav{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    align-items: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+nav ul li a{
+    color:white;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: red;
+}
+.btn{
+    background-color: skyblue;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    padding: 5px 15px;
+}
+.btn:hover{
+transform: scale(1.5);
+}
+.content{
+    text-transform: capitalize;
+    line-height: 50px;
+    letter-spacing: 1px;
+}
+h3{
+color: white;
+margin-left: 2%;
+}
+h1{
+    font-size: 50px;
+    margin-left: 2%;
+}
+h2{
+    margin-left: 2%;
+} 
+.email form input{
+    max-width: 300px;
+    position: relative;
+    margin-left: 2%;
+
+}   
+.email form input:first-child{
+    width: 300px;
+    display: inline-block;
+    padding: 10px 100px 10px 10px;
+    border: 2px solid orange;
+    border-radius: 30px;
+    outline: none;
+}
+.email form input:last-child{
+    width: 60px;
+    position: relative;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 30px;
+    background-color: orangered;
+    color: black;
+    margin-left: -70px;
+}
+
+.about{
+    width: 100%;
+    padding: 0.5% 0px;
+    background-color: #191919;
+    margin-left: 0%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.about img{
+    height: 600px;
+    width: 450px;
+    padding-right: 30px;
+    padding-left: 1%;
+    margin-bottom: auto;
+    border-radius: 50px;
+}
+.about-text{
+    width: 440px;
+}
+.main{
+    position: relative;
+    width: 1130px;
+    max-width: 95%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-around; 
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h4{
+    color: white;
+    font-size: 22px;
+}
+.about-text p{
+    color: #fcfc;
+}
+.button{
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    background-color: red;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    
+}
+button:hover{
+    background-color: purple;
+    transform: scale(1.2);
+
+}
+.service{
+    background-color: #101010;
+    width: 100%;
+    padding: 13px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    font-size: 20px;
+    color: #fcfc;
+    margin-bottom: px;
+}
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.card .button{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 9px;
+    transition: .4s;
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #f9004d;
+    cursor: pointer;
+}
+.contact-me{
+    width: 100%;
+    color: white;
+    background-color: #191919;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.contact-me .button-two{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 9px;
+    transition: .4s;
+    border-radius: 50px;
+}
+footer {
+    background-color: #101010;
+}
+footer p:nth-child(3){
+    color: white;
+    align-items: center;
+    text-align: center;
+}
+footer p{
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.end{
+    color: blue;
+    margin-bottom: 20px;
+}
