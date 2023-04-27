@@ -11,8 +11,8 @@ nav{
     text-align: center;
     flex-direction: row;
     justify-content: space-between;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: auto;
+    padding-right: auto;
     padding-top: 10px;
     align-items: center;
 }
@@ -72,7 +72,7 @@ h2{
     outline: none;
 }
 .email form input:last-child{
-    width: 60px;
+    width: 100px;
     position: relative;
     display: inline-block;
     border: none;
@@ -108,7 +108,7 @@ h2{
 .main{
     position: relative;
     width: 1130px;
-    max-width: 95%;
+    max-width: 100%;
     display: flex;
     margin: 0 auto;
     align-items: center;
@@ -151,7 +151,7 @@ button:hover{
 }
 .title h2{
     color: white;
-    font-size: 75px;
+    font-size: 50px;
     width: 1130px;
     margin: 30px auto;
     text-align: center;
@@ -162,11 +162,10 @@ button:hover{
     align-items: center;
 }
 .card{
-    height: 365px;
-    width: 335px;
-    padding: 20px 35px;
+    height: 600px;
+    width: 500px;
     background: #191919;
-    border-radius: 20px;
+    border-radius: 15px;
     margin: 15px;
     position: relative;
     overflow: hidden;
@@ -175,13 +174,23 @@ button:hover{
 h5{
     font-size: 20px;
     color: #fcfc;
-    margin-bottom: px;
+    margin-bottom: 1px;
+}
+.prapra p{
+    color: #fcfc;
+    font-size: 30px;
+    line-height: 50px;
+    margin-bottom: auto;
+    
 }
 .pra p{
-    color: #fcfc;
+    color:white;
     font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 30px;
+    line-height: 25px;
+    margin-bottom: auto;
+}
+.pra li{
+    color: white;
 }
 .card .button{
     background-color: #f9004d;
@@ -197,6 +206,7 @@ h5{
     border: 2px solid #f9004d;
     cursor: pointer;
 }
+
 .contact-me{
     width: 100%;
     color: white;
