@@ -1,5 +1,5 @@
 *{
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     box-sizing: border-box;
 }
@@ -173,11 +173,11 @@ button:hover{
 }
 h5{
     font-size: 20px;
-    color: #fcfc;
+    color:#fcfc;
     margin-bottom: 1px;
 }
 .prapra p{
-    color: #fcfc;
+    color: white;
     font-size: 30px;
     line-height: 50px;
     margin-bottom: auto;
@@ -219,9 +219,9 @@ h5{
 }
 .contact-me p{
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom: auto;
+    margin-bottom: 95px;
 }
 .contact-me .button-two{
     background-color: #f9004d;
